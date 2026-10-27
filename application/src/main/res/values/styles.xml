@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LocalLink.Text" parent="">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_body</item>
+    </style>
+
+    <style name="LocalLink.Title" parent="LocalLink.Text">
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LocalLink.Subtitle" parent="LocalLink.Text">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="LocalLink.Input" parent="LocalLink.Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:layout_marginTop">@dimen/field_gap</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+    </style>
+
+    <style name="LocalLink.Button" parent="LocalLink.Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="LocalLink.Link" parent="LocalLink.Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

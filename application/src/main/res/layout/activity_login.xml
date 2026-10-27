@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/screen_padding">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_icon_circle"
+            android:contentDescription="@string/cd_logo"
+            android:padding="16dp"
+            android:src="@drawable/ic_logo" />
+
+        <TextView
+            style="@style/LocalLink.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/login_title" />
+
+        <TextView
+            style="@style/LocalLink.Subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/login_subtitle" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/LocalLink.Input"
+            android:layout_marginTop="28dp"
+            android:hint="@string/hint_email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            style="@style/LocalLink.Input"
+            android:hint="@string/hint_password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/cbShowPassword"
+            style="@style/LocalLink.Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/show_password" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/LocalLink.Button"
+            android:text="@string/btn_login" />
+
+        <TextView
+            style="@style/LocalLink.Link"
+            android:onClick="goToForgot"
+            android:text="@string/link_forgot" />
+
+        <TextView
+            style="@style/LocalLink.Link"
+            android:onClick="goToRegister"
+            android:text="@string/link_register" />
+    </LinearLayout>
+</ScrollView>

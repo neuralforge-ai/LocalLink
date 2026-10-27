@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocalLink</string>
+    <string name="tagline">Nearby Services Finder</string>
+    <string name="cd_logo">LocalLink logo</string>
+    <string name="cd_profile">Open profile</string>
+
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Log in to find trusted services near you</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="show_password">Show password</string>
+    <string name="btn_login">Login</string>
+    <string name="link_forgot">Forgot password?</string>
+    <string name="link_register">Don\'t have an account? Register</string>
+
+    <string name="register_title">Create account</string>
+    <string name="register_subtitle">Join LocalLink as a customer or a provider</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="role_label">I am a</string>
+    <string name="role_customer">Customer</string>
+    <string name="role_provider">Service Provider</string>
+    <string name="btn_register">Register</string>
+    <string name="link_login">Already have an account? Login</string>
+
+    <string name="forgot_title">Forgot password?</string>
+    <string name="forgot_subtitle">Enter your email and we will send you a reset link</string>
+    <string name="btn_send_reset">Send reset link</string>
+    <string name="reset_title">Set new password</string>
+    <string name="reset_subtitle">Choose a new password for %1$s</string>
+    <string name="hint_new_password">New password</string>
+    <string name="btn_reset_password">Reset password</string>
+    <string name="link_back_login">Back to login</string>
+
+    <string name="greeting">Hello, %1$s</string>
+    <string name="home_subtitle">What service do you need today?</string>
+    <string name="cat_electrician">Electrician</string>
+    <string name="cat_plumber">Plumber</string>
+    <string name="cat_mechanic">Mechanic</string>
+    <string name="cat_tailor">Tailor</string>
+    <string name="cat_tutor">Home Tutor</string>
+    <string name="cat_favourites">Favourites</string>
+    <string name="toast_category">Nearby %1$s: coming soon</string>
+
+    <string name="profile_title">My profile</string>
+    <string name="label_name">Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_role">Account type</string>
+    <string name="btn_logout">Logout</string>
+    <string name="demo_name">Demo User</string>
+
+    <string name="error_name_required">Please enter your name</string>
+    <string name="error_email_required">Please enter your email</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+    <string name="error_password_required">Please enter a password</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_confirm_required">Please confirm your password</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_email_taken">This email is already registered</string>
+    <string name="error_email_not_found">No account found for this email</string>
+    <string name="error_invalid_credentials">Incorrect email or password</string>
+
+    <string name="toast_registered">Account created. Please log in.</string>
+    <string name="toast_reset_sent">Reset link sent (simulated)</string>
+    <string name="toast_password_updated">Password updated. Please log in.</string>
+    <string name="toast_logged_out">You have been logged out</string>
+</resources>
